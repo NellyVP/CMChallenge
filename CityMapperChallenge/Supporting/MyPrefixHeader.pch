@@ -1,0 +1,16 @@
+//
+//  MyPrefixHeader.pch
+//  CityMapperChallenge
+//
+//  Created by Nilofar Vahab poor on 17/12/2017.
+//  Copyright © 2017 Nilofar Vahab poor. All rights reserved.
+//
+
+#ifndef MyPrefixHeader_pch
+#define MyPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#include "Constants.h"
+
+#endif /* MyPrefixHeader_pch */
