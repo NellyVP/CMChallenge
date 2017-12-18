@@ -13,7 +13,8 @@
 @interface ModelFactory : NSObject
 
 + (NSArray*) arrayOfNearByStationsFromDict:(NSDictionary*)dict;
-+ (CMStopPoint*) stopPointFromDictionary:(NSDictionary*)dict;
+//+ (CMStopPoint*) stopPointFromDictionary:(NSDictionary*)dict;
 + (NSArray*) facilitiesForStopPoint:(CMStopPoint*)stopP;
++ (NSDictionary*) arrivalsFromResponse:(NSDictionary*)returnDict;
 
 @end

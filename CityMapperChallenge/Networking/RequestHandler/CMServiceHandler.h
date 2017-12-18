@@ -29,7 +29,7 @@
 
 
 - (CMRequest*) retrieveNearestStationsForLocation:(NSDictionary*)dict completion:(void (^)(NSArray* dict, NSError* error))completion;
-- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary* dict, NSError* error))completion;
+- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary* arrivals, NSError* error))completion;
 
 
 @end

@@ -96,7 +96,7 @@
                }];
     return configRequest;
 }
-- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary*dict, NSError* error))completion {
+- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary* arrivals, NSError* error))completion {
     NSAssert(_active, @"Attempting requests before activated");
     
     NSURL* baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", kCMRequestProtocol, kCMRequestBaseURL]];
@@ -107,15 +107,17 @@
                              stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]
                withJSONBody:@{@"app_id":appID,@"app_key":appKey}
                onCompletion:^(CMRequest* request, NSDictionary* info, NSError* error) {
+                   NSDictionary *platformArrivals = [[NSDictionary alloc] init];
                    typeof(self) __strong strongSelf = weakSelf;
                    [strongSelf handleRequestResponse:request ignoreAuth:YES];
                    if (error) {
                    }
                    else if (info){
+                        platformArrivals = [ModelFactory arrivalsFromResponse:info];
                    }
                    
                    if (completion) {
-                       completion(info, error);
+                       completion(platformArrivals, error);
                    }
                }];
     return configRequest;

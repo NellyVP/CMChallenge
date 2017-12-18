@@ -31,7 +31,6 @@
     
     [self.serviceHandler retrieveTrainInfoForStop:self.stopPoint completion:^(NSDictionary *dict, NSError *error) {
         NSLog(@"info->%@  error->%@", dict, error);
-
     }];
 }
 /*

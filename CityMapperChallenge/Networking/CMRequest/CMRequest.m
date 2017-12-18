@@ -65,7 +65,7 @@ static NSMutableSet* outstandingRequests;
         typeof(self) __strong strongSelf = weakSelf;
         
         if (responseObject) {
-            NSAssert([responseObject isKindOfClass:[NSDictionary class]], @"Unexpected object type");
+           // NSAssert([responseObject isKindOfClass:[NSDictionary class]], @"Unexpected object type");
         }
         [strongSelf updateResponseCodeForDataTask:task];
         strongSelf.responseInfo = responseObject;
@@ -265,6 +265,8 @@ static NSMutableSet* outstandingRequests;
     _requestManager.responseSerializer = [AFJSONResponseSerializer serializer];
     _requestManager.requestSerializer =  [AFJSONRequestSerializer serializer];
     [_requestManager.requestSerializer clearAuthorizationHeader];
+    _requestManager.securityPolicy.allowInvalidCertificates = YES;
+    _requestManager.securityPolicy.validatesDomainName = NO;
 }
 
 - (void) completeFakeRequest {
