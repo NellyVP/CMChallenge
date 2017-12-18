@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CMTubeListViewController.h
 //  CityMapperChallenge
 //
 //  Created by Nilofar Vahab poor on 17/12/2017.
@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@class CMServiceHandler;
 
-@interface ViewController : UIViewController
-
+@interface CMTubeListViewController : UIViewController
+@property (nonatomic, strong) CMServiceHandler* serviceHandler;
 
 @end
-

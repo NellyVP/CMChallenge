@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CMTubeListCustomTableCellId" rowHeight="100" id="KGk-i7-Jjw" customClass="CMTubeListCustomTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tube Station" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y45-GG-dSG">
+                        <rect key="frame" x="7" y="11" width="297" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="297" id="2oq-ps-aeI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a3o-WR-q8U">
+                        <rect key="frame" x="0.0" y="42" width="320" height="58"/>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="a3o-WR-q8U" firstAttribute="top" secondItem="y45-GG-dSG" secondAttribute="bottom" constant="10" id="1nM-vv-4kh"/>
+                    <constraint firstItem="y45-GG-dSG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="7" id="Sqx-gN-Kr2"/>
+                    <constraint firstItem="y45-GG-dSG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Tv2-AP-Ff2"/>
+                    <constraint firstAttribute="bottom" secondItem="a3o-WR-q8U" secondAttribute="bottom" id="U5y-n6-0vo"/>
+                    <constraint firstItem="a3o-WR-q8U" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vFh-Ek-OFx"/>
+                    <constraint firstAttribute="trailing" secondItem="a3o-WR-q8U" secondAttribute="trailing" id="vl9-m7-lXI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="facilitiesStackView" destination="a3o-WR-q8U" id="8cX-qc-Q6j"/>
+                <outlet property="stationName" destination="y45-GG-dSG" id="OwB-x2-lEy"/>
+            </connections>
+            <point key="canvasLocation" x="23" y="-155"/>
+        </tableViewCell>
+    </objects>
+</document>

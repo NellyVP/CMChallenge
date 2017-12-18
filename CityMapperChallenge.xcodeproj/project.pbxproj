@@ -11,11 +11,22 @@
 		1CA803341FE6D67B007EB20E /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA803331FE6D67B007EB20E /* Reachability.m */; };
 		1CA803381FE6D6D1007EB20E /* CMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA803371FE6D6D1007EB20E /* CMRequest.m */; };
 		1CAE9D3A1FE6B6A1001347CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE9D391FE6B6A1001347CA /* AppDelegate.m */; };
-		1CAE9D3D1FE6B6A1001347CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE9D3C1FE6B6A1001347CA /* ViewController.m */; };
-		1CAE9D401FE6B6A1001347CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE9D3E1FE6B6A1001347CA /* Main.storyboard */; };
 		1CAE9D421FE6B6A1001347CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE9D411FE6B6A1001347CA /* Assets.xcassets */; };
 		1CAE9D451FE6B6A1001347CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAE9D431FE6B6A1001347CA /* LaunchScreen.storyboard */; };
 		1CAE9D481FE6B6A1001347CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CAE9D471FE6B6A1001347CA /* main.m */; };
+		1CBD070E1FE71D75003D6197 /* CMTubeListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD070C1FE71D75003D6197 /* CMTubeListViewController.m */; };
+		1CBD070F1FE71D75003D6197 /* CMTubeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD070D1FE71D75003D6197 /* CMTubeListViewController.xib */; };
+		1CBD07141FE71F64003D6197 /* CMBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07121FE71F64003D6197 /* CMBaseViewController.m */; };
+		1CBD07151FE71F64003D6197 /* CMBaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD07131FE71F64003D6197 /* CMBaseViewController.xib */; };
+		1CBD07181FE722CC003D6197 /* LaunchScreenImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD07171FE722CC003D6197 /* LaunchScreenImage.png */; };
+		1CBD071E1FE72594003D6197 /* ModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD071D1FE72594003D6197 /* ModelFactory.m */; };
+		1CBD07231FE7288C003D6197 /* CMTubeFacilityDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07211FE7288C003D6197 /* CMTubeFacilityDetailViewController.m */; };
+		1CBD07241FE7288C003D6197 /* CMTubeFacilityDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD07221FE7288C003D6197 /* CMTubeFacilityDetailViewController.xib */; };
+		1CBD07291FE72906003D6197 /* CMTubeListCustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07271FE72906003D6197 /* CMTubeListCustomTableCell.m */; };
+		1CBD072A1FE72906003D6197 /* CMTubeListCustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD07281FE72906003D6197 /* CMTubeListCustomTableCell.xib */; };
+		1CBD072E1FE735FE003D6197 /* CMStopPointArrivalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD072D1FE735FE003D6197 /* CMStopPointArrivalController.m */; };
+		1CBD07321FE738E8003D6197 /* CMStopPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07311FE738E8003D6197 /* CMStopPoint.m */; };
+		1CBD07361FE73D7E003D6197 /* TimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07351FE73D7E003D6197 /* TimerTarget.m */; };
 		D01E125C130C75266C8FDE9A /* libPods-CityMapperChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C571D20ADDACA3B62A72B /* libPods-CityMapperChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -31,13 +42,31 @@
 		1CAE9D351FE6B6A1001347CA /* CityMapperChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CityMapperChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CAE9D381FE6B6A1001347CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CAE9D391FE6B6A1001347CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1CAE9D3B1FE6B6A1001347CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1CAE9D3C1FE6B6A1001347CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1CAE9D3F1FE6B6A1001347CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CAE9D411FE6B6A1001347CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CAE9D441FE6B6A1001347CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CAE9D461FE6B6A1001347CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CAE9D471FE6B6A1001347CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CBD070B1FE71D75003D6197 /* CMTubeListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMTubeListViewController.h; sourceTree = "<group>"; };
+		1CBD070C1FE71D75003D6197 /* CMTubeListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMTubeListViewController.m; sourceTree = "<group>"; };
+		1CBD070D1FE71D75003D6197 /* CMTubeListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMTubeListViewController.xib; sourceTree = "<group>"; };
+		1CBD07111FE71F64003D6197 /* CMBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMBaseViewController.h; sourceTree = "<group>"; };
+		1CBD07121FE71F64003D6197 /* CMBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMBaseViewController.m; sourceTree = "<group>"; };
+		1CBD07131FE71F64003D6197 /* CMBaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMBaseViewController.xib; sourceTree = "<group>"; };
+		1CBD07171FE722CC003D6197 /* LaunchScreenImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchScreenImage.png; path = CityMapperChallenge/Assets.xcassets/LaunchScreenImage.png; sourceTree = SOURCE_ROOT; };
+		1CBD071C1FE72594003D6197 /* ModelFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelFactory.h; sourceTree = "<group>"; };
+		1CBD071D1FE72594003D6197 /* ModelFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelFactory.m; sourceTree = "<group>"; };
+		1CBD07201FE7288C003D6197 /* CMTubeFacilityDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMTubeFacilityDetailViewController.h; sourceTree = "<group>"; };
+		1CBD07211FE7288C003D6197 /* CMTubeFacilityDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMTubeFacilityDetailViewController.m; sourceTree = "<group>"; };
+		1CBD07221FE7288C003D6197 /* CMTubeFacilityDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMTubeFacilityDetailViewController.xib; sourceTree = "<group>"; };
+		1CBD07261FE72906003D6197 /* CMTubeListCustomTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMTubeListCustomTableCell.h; sourceTree = "<group>"; };
+		1CBD07271FE72906003D6197 /* CMTubeListCustomTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMTubeListCustomTableCell.m; sourceTree = "<group>"; };
+		1CBD07281FE72906003D6197 /* CMTubeListCustomTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMTubeListCustomTableCell.xib; sourceTree = "<group>"; };
+		1CBD072C1FE735FE003D6197 /* CMStopPointArrivalController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMStopPointArrivalController.h; sourceTree = "<group>"; };
+		1CBD072D1FE735FE003D6197 /* CMStopPointArrivalController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMStopPointArrivalController.m; sourceTree = "<group>"; };
+		1CBD07301FE738E8003D6197 /* CMStopPoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMStopPoint.h; sourceTree = "<group>"; };
+		1CBD07311FE738E8003D6197 /* CMStopPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMStopPoint.m; sourceTree = "<group>"; };
+		1CBD07341FE73D7E003D6197 /* TimerTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTarget.h; sourceTree = "<group>"; };
+		1CBD07351FE73D7E003D6197 /* TimerTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTarget.m; sourceTree = "<group>"; };
 		50368916E7DE5C0FE6F280D6 /* Pods-CityMapperChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityMapperChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityMapperChallenge/Pods-CityMapperChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		7107959CE38EE70A646F92A3 /* Pods-CityMapperChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityMapperChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityMapperChallenge/Pods-CityMapperChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		9D0C571D20ADDACA3B62A72B /* libPods-CityMapperChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityMapperChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +133,8 @@
 		1CA803401FE6FFE2007EB20E /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
+				1CAE9D431FE6B6A1001347CA /* LaunchScreen.storyboard */,
+				1CBD07161FE722B4003D6197 /* Images */,
 				1CA803431FE700D0007EB20E /* MyPrefixHeader.pch */,
 				1CA803441FE700EC007EB20E /* Constants.h */,
 			);
@@ -131,19 +162,123 @@
 		1CAE9D371FE6B6A1001347CA /* CityMapperChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				1CA803401FE6FFE2007EB20E /* Supporting */,
+				1CBD071B1FE7257C003D6197 /* ModelFactory */,
+				1CBD071A1FE72546003D6197 /* UserInterface */,
+				1CBD07191FE7250E003D6197 /* AppDelegate */,
 				1CA8033D1FE6FF76007EB20E /* Networking */,
-				1CAE9D381FE6B6A1001347CA /* AppDelegate.h */,
-				1CAE9D391FE6B6A1001347CA /* AppDelegate.m */,
-				1CAE9D3B1FE6B6A1001347CA /* ViewController.h */,
-				1CAE9D3C1FE6B6A1001347CA /* ViewController.m */,
-				1CAE9D3E1FE6B6A1001347CA /* Main.storyboard */,
+				1CBD07331FE73D68003D6197 /* Utilities */,
+				1CA803401FE6FFE2007EB20E /* Supporting */,
 				1CAE9D411FE6B6A1001347CA /* Assets.xcassets */,
-				1CAE9D431FE6B6A1001347CA /* LaunchScreen.storyboard */,
 				1CAE9D461FE6B6A1001347CA /* Info.plist */,
 				1CAE9D471FE6B6A1001347CA /* main.m */,
 			);
 			path = CityMapperChallenge;
+			sourceTree = "<group>";
+		};
+		1CBD070A1FE71D44003D6197 /* CMTubeListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07251FE728E2003D6197 /* CMTubeListCustomCell */,
+				1CBD070B1FE71D75003D6197 /* CMTubeListViewController.h */,
+				1CBD070C1FE71D75003D6197 /* CMTubeListViewController.m */,
+				1CBD070D1FE71D75003D6197 /* CMTubeListViewController.xib */,
+			);
+			path = CMTubeListViewController;
+			sourceTree = "<group>";
+		};
+		1CBD07101FE71F4A003D6197 /* CMBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07111FE71F64003D6197 /* CMBaseViewController.h */,
+				1CBD07121FE71F64003D6197 /* CMBaseViewController.m */,
+				1CBD07131FE71F64003D6197 /* CMBaseViewController.xib */,
+			);
+			path = CMBaseViewController;
+			sourceTree = "<group>";
+		};
+		1CBD07161FE722B4003D6197 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07171FE722CC003D6197 /* LaunchScreenImage.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		1CBD07191FE7250E003D6197 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1CAE9D381FE6B6A1001347CA /* AppDelegate.h */,
+				1CAE9D391FE6B6A1001347CA /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1CBD071A1FE72546003D6197 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD071F1FE72868003D6197 /* CMTubeFacilityDetailViewController */,
+				1CBD07101FE71F4A003D6197 /* CMBaseViewController */,
+				1CBD070A1FE71D44003D6197 /* CMTubeListViewController */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		1CBD071B1FE7257C003D6197 /* ModelFactory */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD072F1FE738D7003D6197 /* CMStopPoint */,
+				1CBD072B1FE73595003D6197 /* CMListController */,
+				1CBD071C1FE72594003D6197 /* ModelFactory.h */,
+				1CBD071D1FE72594003D6197 /* ModelFactory.m */,
+			);
+			path = ModelFactory;
+			sourceTree = "<group>";
+		};
+		1CBD071F1FE72868003D6197 /* CMTubeFacilityDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07201FE7288C003D6197 /* CMTubeFacilityDetailViewController.h */,
+				1CBD07211FE7288C003D6197 /* CMTubeFacilityDetailViewController.m */,
+				1CBD07221FE7288C003D6197 /* CMTubeFacilityDetailViewController.xib */,
+			);
+			path = CMTubeFacilityDetailViewController;
+			sourceTree = "<group>";
+		};
+		1CBD07251FE728E2003D6197 /* CMTubeListCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07261FE72906003D6197 /* CMTubeListCustomTableCell.h */,
+				1CBD07271FE72906003D6197 /* CMTubeListCustomTableCell.m */,
+				1CBD07281FE72906003D6197 /* CMTubeListCustomTableCell.xib */,
+			);
+			path = CMTubeListCustomCell;
+			sourceTree = "<group>";
+		};
+		1CBD072B1FE73595003D6197 /* CMListController */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD072C1FE735FE003D6197 /* CMStopPointArrivalController.h */,
+				1CBD072D1FE735FE003D6197 /* CMStopPointArrivalController.m */,
+			);
+			path = CMListController;
+			sourceTree = "<group>";
+		};
+		1CBD072F1FE738D7003D6197 /* CMStopPoint */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07301FE738E8003D6197 /* CMStopPoint.h */,
+				1CBD07311FE738E8003D6197 /* CMStopPoint.m */,
+			);
+			path = CMStopPoint;
+			sourceTree = "<group>";
+		};
+		1CBD07331FE73D68003D6197 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07341FE73D7E003D6197 /* TimerTarget.h */,
+				1CBD07351FE73D7E003D6197 /* TimerTarget.m */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 		CCFA64204996DB3064BF2490 /* Frameworks */ = {
@@ -215,9 +350,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBD07241FE7288C003D6197 /* CMTubeFacilityDetailViewController.xib in Resources */,
+				1CBD07181FE722CC003D6197 /* LaunchScreenImage.png in Resources */,
+				1CBD07151FE71F64003D6197 /* CMBaseViewController.xib in Resources */,
+				1CBD070F1FE71D75003D6197 /* CMTubeListViewController.xib in Resources */,
 				1CAE9D451FE6B6A1001347CA /* LaunchScreen.storyboard in Resources */,
+				1CBD072A1FE72906003D6197 /* CMTubeListCustomTableCell.xib in Resources */,
 				1CAE9D421FE6B6A1001347CA /* Assets.xcassets in Resources */,
-				1CAE9D401FE6B6A1001347CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,25 +419,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CA803301FE6D64A007EB20E /* CMServiceHandler.m in Sources */,
-				1CAE9D3D1FE6B6A1001347CA /* ViewController.m in Sources */,
 				1CAE9D481FE6B6A1001347CA /* main.m in Sources */,
+				1CBD071E1FE72594003D6197 /* ModelFactory.m in Sources */,
+				1CBD072E1FE735FE003D6197 /* CMStopPointArrivalController.m in Sources */,
+				1CBD07321FE738E8003D6197 /* CMStopPoint.m in Sources */,
+				1CBD07141FE71F64003D6197 /* CMBaseViewController.m in Sources */,
+				1CBD07231FE7288C003D6197 /* CMTubeFacilityDetailViewController.m in Sources */,
 				1CAE9D3A1FE6B6A1001347CA /* AppDelegate.m in Sources */,
 				1CA803341FE6D67B007EB20E /* Reachability.m in Sources */,
+				1CBD07291FE72906003D6197 /* CMTubeListCustomTableCell.m in Sources */,
+				1CBD070E1FE71D75003D6197 /* CMTubeListViewController.m in Sources */,
 				1CA803381FE6D6D1007EB20E /* CMRequest.m in Sources */,
+				1CBD07361FE73D7E003D6197 /* TimerTarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1CAE9D3E1FE6B6A1001347CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CAE9D3F1FE6B6A1001347CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1CAE9D431FE6B6A1001347CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,7 +566,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nelly.CityMapperChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -446,7 +584,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nelly.CityMapperChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

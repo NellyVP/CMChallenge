@@ -8,8 +8,11 @@
 
 #import "AppDelegate.h"
 #import "CMServiceHandler.h"
+#import "CMBaseViewController.h"
+#import "CMTubeListViewController.h"
 
 @interface AppDelegate ()
+@property (nonatomic, strong) CMServiceHandler* handler;
 
 @end
 
@@ -17,7 +20,24 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-
+ 
+    _handler = [[CMServiceHandler alloc] init];
+    [_handler activate];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    CMTubeListViewController *listVC = [[CMTubeListViewController alloc] initWithNibName:@"CMTubeListViewController" bundle:nil];
+    listVC.serviceHandler = _handler;
+    
+    UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:listVC];
+    navController.navigationBar.translucent = NO;
+    
+    CMBaseViewController* baseViewController = [[CMBaseViewController alloc] initWithNibName:@"CMBaseViewController" bundle:nil];
+    baseViewController.serviceHandler = _handler;
+    baseViewController.contentViewController = navController;
+    
+    self.window.rootViewController = baseViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

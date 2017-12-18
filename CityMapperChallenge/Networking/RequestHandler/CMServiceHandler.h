@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "CMRequest.h"
-
+#import "CMStopPoint.h"
 /*
  Offers service-level requests.
  Handles priority list updating and requests.
@@ -29,7 +29,7 @@
 
 
 - (CMRequest*) retrieveNearestStationsForLocation:(NSDictionary*)dict completion:(void (^)(NSDictionary* dict, NSError* error))completion;
-- (CMRequest*) retrieveTrainInfoForStop:(NSString*)stop completion:(void (^)(NSDictionary*dict, NSError* error))completion;
+- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary*dict, NSError* error))completion;
 
 
 @end

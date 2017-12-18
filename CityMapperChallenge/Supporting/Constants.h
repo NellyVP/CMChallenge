@@ -10,18 +10,32 @@
 #ifndef Constants_h
 #define Constants_h
 
+//API request strings
+static NSString* const kCMRequestInsecureProtocol        = @"http://";
+static NSString* const kCMRequestProtocol                = @"https://";
+static NSString* const kCMRequestBaseURL                 = @"api.tfl.gov.uk";
+static NSString* const kCMRequestNearestStops            = @"/StopPoint?radius=1500&stopTypes=NaptanMetroStation&lat=%@&lon=%@";
+static NSString* const kCMRequestLiveData                = @"/StopPoint/%@/Arrivals?mode=tube";
 
-static NSString* const kCMRequestInsecureProtocol    = @"http://";
-static NSString* const kCMRequestProtocol            = @"https://";
-static NSString* const kCMRequestBaseURL             = @"api.tfl.gov.uk";
-static NSString* const kCMRequestNearestStops        = @"/StopPoint?radius=%@&stopTypes=NaptanMetroStation&lat=%@&lon=%@";
-static NSString* const kCMRequestLiveData            = @"/StopPoint/%@/Arrivals?mode=tube";
-//https://api.tfl.gov.uk/StopPoint?radius=1000&stopTypes=NaptanMetroStation&lat=51.580091&lon=-0.197654
+static NSString* const kControllerErrorDomain            = @"Conference Controller Domain";
+static NSString* const kRequestRefresh                   = @"RequestRefresh";
 
 
-// Notification for server list exhaustion
-static NSString* const kCMServiceConnectionChange      = @"MatrixServiceConnectionChange";
-static NSString* const appKey                          = @"MatrixServiceConnectionChange";
-static NSString* const appID                           = @"MatrixServiceConnectionChange";
+//ConnectionHandler string
+static NSString* const kCMServiceConnectionChange        = @"CMServiceConnectionChange";
+
+
+//General
+static NSString* const appKey                            = @"ae8272cc41777157cff48db298a5eddf";
+static NSString* const appID                             = @"50b45e29";
+
+
+//Custom UI Idenifiers
+static NSString* const ktubeListCustomTableCellNibName   = @"CMTubeListCustomTableCell";
+static NSString* const ktubeListCustomTableCellIdentifier= @"CMTubeListCustomTableCellId";
+
+
+//View Titles
+static NSString* const kTubeListViewTitle                = @"Nearest Tube Stations";
 
 #endif /* Constants_h */

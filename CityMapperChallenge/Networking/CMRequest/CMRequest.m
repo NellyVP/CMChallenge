@@ -29,7 +29,7 @@ static NSMutableSet* outstandingRequests;
     [self removeFromOutstanding];
 }
 
-- (instancetype) initWithBaseURL:(NSURL*)baseURL {
+- (instancetype) initWithBaseURL:(NSURL*)baseURL{
     if (self = [super init]) {
         _baseURL = baseURL;
         _type = kCMRequestTypeNotIssued;
@@ -264,7 +264,6 @@ static NSMutableSet* outstandingRequests;
     
     _requestManager.responseSerializer = [AFJSONResponseSerializer serializer];
     _requestManager.requestSerializer =  [AFJSONRequestSerializer serializer];
-
     [_requestManager.requestSerializer clearAuthorizationHeader];
 }
 

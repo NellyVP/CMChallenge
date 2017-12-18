@@ -75,7 +75,7 @@
     
     typeof(self) __weak weakSelf = self;
     
-    [configRequest issueGET:[[NSString stringWithFormat:kCMRequestNearestStops, @"1000", [dict objectForKey:@"latitude"], [dict objectForKey:@"longitude"]]
+    [configRequest issueGET:[[NSString stringWithFormat:kCMRequestNearestStops, [dict objectForKey:@"latitude"], [dict objectForKey:@"longitude"]]
                              stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]
                withJSONBody:@{@"app_id":appID,@"app_key":appKey}
                onCompletion:^(CMRequest* request, NSDictionary* info, NSError* error) {
@@ -92,14 +92,14 @@
                }];
     return configRequest;
 }
-- (CMRequest*) retrieveTrainInfoForStop:(NSString*)stop completion:(void (^)(NSDictionary*dict, NSError* error))completion {
+- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary*dict, NSError* error))completion {
     NSAssert(_active, @"Attempting requests before activated");
     
     NSURL* baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", kCMRequestProtocol, kCMRequestBaseURL]];
     CMRequest* configRequest = [[CMRequest alloc] initWithBaseURL:baseURL];
     
     typeof(self) __weak weakSelf = self;
-    [configRequest issueGET:[[NSString stringWithFormat:kCMRequestLiveData, stop]
+    [configRequest issueGET:[[NSString stringWithFormat:kCMRequestLiveData, stop.stopPintID]
                              stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]]
                withJSONBody:nil
                onCompletion:^(CMRequest* request, NSDictionary* info, NSError* error) {
