@@ -12,6 +12,7 @@
 #import "CMServiceHandler.h"
 #import "CMRequest.h"
 #import "Reachability.h"
+#import "ModelFactory.h"
 
 @interface CMServiceHandler()
 @property (nonatomic, assign) BOOL active;
@@ -67,7 +68,7 @@
     
     _active = NO;
 }
-- (CMRequest*) retrieveNearestStationsForLocation:(NSDictionary*)dict completion:(void (^)(NSDictionary* dict, NSError* error))completion {
+- (CMRequest*) retrieveNearestStationsForLocation:(NSDictionary*)dict completion:(void (^)(NSArray* array, NSError* error))completion {
     NSAssert(_active, @"Attempting requests before activated");
     
     NSURL* baseURL = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@", kCMRequestProtocol, kCMRequestBaseURL]];
@@ -81,13 +82,16 @@
                onCompletion:^(CMRequest* request, NSDictionary* info, NSError* error) {
                    typeof(self) __strong strongSelf = weakSelf;
                    [strongSelf handleRequestResponse:request ignoreAuth:YES];
+                   NSArray *arrayOfStations = [[NSArray alloc] init];
+                   
                    if (error) {
                    }
                    else if (info){
+                       arrayOfStations = [ModelFactory arrayOfNearByStationsFromDict:info];
                    }
                    
                    if (completion) {
-                       completion(info, error);
+                       completion(arrayOfStations, error);
                    }
                }];
     return configRequest;
@@ -99,12 +103,12 @@
     CMRequest* configRequest = [[CMRequest alloc] initWithBaseURL:baseURL];
     
     typeof(self) __weak weakSelf = self;
-    [configRequest issueGET:[[NSString stringWithFormat:kCMRequestLiveData, stop.stopPintID]
-                             stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLPathAllowedCharacterSet]]
-               withJSONBody:nil
+    [configRequest issueGET:[[NSString stringWithFormat:kCMRequestLiveData, stop.stopPointID]
+                             stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]]
+               withJSONBody:@{@"app_id":appID,@"app_key":appKey}
                onCompletion:^(CMRequest* request, NSDictionary* info, NSError* error) {
                    typeof(self) __strong strongSelf = weakSelf;
-                   [strongSelf handleRequestResponse:request ignoreAuth:NO];
+                   [strongSelf handleRequestResponse:request ignoreAuth:YES];
                    if (error) {
                    }
                    else if (info){

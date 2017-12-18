@@ -10,6 +10,7 @@
 #import "CMTubeListCustomTableCell.h"
 #import "CMServiceHandler.h"
 #import <CoreLocation/CoreLocation.h>
+#import "CMStationArrivalsViewController.h"
 
 @interface CMTubeListViewController () <UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate>
 @property (nonatomic, strong) IBOutlet UITableView *tableView;
@@ -28,6 +29,10 @@
     [self.tableView registerNib:[UINib nibWithNibName:ktubeListCustomTableCellNibName bundle:nil] forCellReuseIdentifier:ktubeListCustomTableCellIdentifier];
     [self.navigationItem setTitle:kTubeListViewTitle];
     self.nearbyStations = [[NSMutableArray alloc] init];
+    
+    self.tableView.estimatedRowHeight = [CMTubeListCustomTableCell dynamicHeight];
+    self.tableView.rowHeight = UITableViewAutomaticDimension;
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -57,8 +62,12 @@
     return self.nearbyStations.count;
 }
 
-- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return [CMTubeListCustomTableCell dynamicHeight];
+//- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
+//    return [CMTubeListCustomTableCell dynamicHeight];
+//}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 120;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -66,7 +75,17 @@
     if (!listViewCell) {
         listViewCell = [[[NSBundle mainBundle] loadNibNamed:ktubeListCustomTableCellIdentifier owner:self options:nil] lastObject];
     }
+    CMStopPoint *point = [self.nearbyStations objectAtIndex:indexPath.row];
+    listViewCell.stationName.text = point.stationName;
+    
     return listViewCell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    CMStationArrivalsViewController *arrivalsVC = [[CMStationArrivalsViewController alloc] initWithNibName:@"CMStationArrivalsViewController" bundle:nil];
+    arrivalsVC.stopPoint = [self.nearbyStations objectAtIndex:indexPath.row];
+    arrivalsVC.serviceHandler = self.serviceHandler;
+    [self.navigationController pushViewController:arrivalsVC animated:YES];
 }
 
 -(void)locationManger:(CLLocationManager *)manager didFailWithError:(NSError *)error {
@@ -83,15 +102,12 @@
     dict[@"latitude"] = @(latitude);
     dict[@"longitude"] = @(longitude);
     
-    [_serviceHandler retrieveNearestStationsForLocation:dict completion:^(NSDictionary *dict, NSError *error) {
-        NSLog(@"info->%@  error->%@", dict, error);
-        
-        NSDictionary *returnedDict = [dict objectForKey:@"stopPoints"];
-        for (NSDictionary *dictionary in returnedDict) {
-            CMStopPoint *point = [[CMStopPoint alloc] initWithStopPointID:[dictionary objectForKey:@"naptanId"] facilities:[dictionary objectForKey:@"additionalProperties"] distance:1000];
-            [self.nearbyStations addObject:point];
-        }
-        [self.tableView reloadData];
+    typeof(self) __weak weakSelf = self;
+
+    [_serviceHandler retrieveNearestStationsForLocation:dict completion:^(NSArray *array, NSError *error) {
+        NSLog(@"info->%@  error->%@", array, error);
+        weakSelf.nearbyStations = array.mutableCopy;
+        [weakSelf.tableView reloadData];
     }];
     
     [self.locationManager stopUpdatingLocation];

@@ -28,8 +28,8 @@
 - (BOOL) hostAccessible;
 
 
-- (CMRequest*) retrieveNearestStationsForLocation:(NSDictionary*)dict completion:(void (^)(NSDictionary* dict, NSError* error))completion;
-- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary*dict, NSError* error))completion;
+- (CMRequest*) retrieveNearestStationsForLocation:(NSDictionary*)dict completion:(void (^)(NSArray* dict, NSError* error))completion;
+- (CMRequest*) retrieveTrainInfoForStop:(CMStopPoint*)stop completion:(void (^)(NSDictionary* dict, NSError* error))completion;
 
 
 @end

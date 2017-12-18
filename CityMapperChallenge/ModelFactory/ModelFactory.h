@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+@class CMStopPoint;
+
 
 @interface ModelFactory : NSObject
+
++ (NSArray*) arrayOfNearByStationsFromDict:(NSDictionary*)dict;
++ (CMStopPoint*) stopPointFromDictionary:(NSDictionary*)dict;
++ (NSArray*) facilitiesForStopPoint:(CMStopPoint*)stopP;
 
 @end

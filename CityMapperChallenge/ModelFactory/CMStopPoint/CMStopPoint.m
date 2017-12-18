@@ -8,7 +8,7 @@
 
 #import "CMStopPoint.h"
 @interface CMStopPoint()
-@property (nonatomic, strong, readwrite) NSString* stopPintID;
+@property (nonatomic, strong, readwrite) NSString* stopPointID;
 @property (nonatomic, strong, readwrite) NSArray* stationFacilities;
 @property (nonatomic, readwrite) double distance;
 
@@ -18,16 +18,17 @@
 
 
 - (instancetype) init {
-    NSAssert(NO, @"Use initWithUserContact:userUUID:");
+    NSAssert(NO, @"Use initWithStopPointID:stopId:");
     return nil;
 }
 
-- (instancetype) initWithStopPointID:(NSString*)stopId facilities:(NSArray*)facilities distance:(double)distance {
+- (instancetype) initWithStopPointID:(NSString*)stopId name:(NSString*)stationName facilities:(NSArray*)facilities distance:(double)distance {
     
     if (self = [super init]) {
-        _stopPintID = stopId;
-        _stationFacilities = facilities;
-        _distance = distance;
+        _stopPointID         = stopId;
+        _stationName        = stationName;
+        _stationFacilities  = facilities;
+        _distance           = distance;
     }
     return self;
 }

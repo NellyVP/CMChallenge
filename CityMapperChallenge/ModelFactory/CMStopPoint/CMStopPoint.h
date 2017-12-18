@@ -9,11 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface CMStopPoint : NSObject
-@property (nonatomic, strong, readonly) NSString* stopPintID;
+@property (nonatomic, strong, readonly) NSString* stopPointID;
+@property (nonatomic, strong, readonly) NSString* stationName;
 @property (nonatomic, strong, readonly) NSArray* stationFacilities;
 @property (nonatomic, readonly) double distance;
 
-- (instancetype) initWithStopPointID:(NSString*)stopId facilities:(NSArray*)facilities distance:(double)distance;
+- (instancetype) initWithStopPointID:(NSString*)stopId name:(NSString*)stationName facilities:(NSArray*)facilities distance:(double)distance;
 
 
 @end

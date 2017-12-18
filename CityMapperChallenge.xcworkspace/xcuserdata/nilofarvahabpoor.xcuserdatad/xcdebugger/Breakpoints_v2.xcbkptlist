@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/CMRequest/CMRequest.m"
-            timestampString = "535250705.540581"
+            timestampString = "535260181.791741"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "36"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/CMRequest/CMRequest.m"
-            timestampString = "535250705.541076"
+            timestampString = "535260181.792481"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/CMRequest/CMRequest.m"
-            timestampString = "535250705.541164"
+            timestampString = "535260181.79277"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "267"
@@ -138,7 +138,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/CMRequest/CMRequest.m"
-            timestampString = "535250705.541237"
+            timestampString = "535260181.792955"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "67"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/CMRequest/CMRequest.m"
-            timestampString = "535250705.541305"
+            timestampString = "535260181.79312"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "70"
@@ -170,7 +170,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/CMRequest/CMRequest.m"
-            timestampString = "535250705.54137"
+            timestampString = "535260181.793289"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "76"
@@ -186,7 +186,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/CMRequest/CMRequest.m"
-            timestampString = "535250705.541438"
+            timestampString = "535260181.793442"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "66"
@@ -218,27 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
-            timestampString = "535250705.541574"
+            timestampString = "535260181.793592"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
-            landmarkName = "-locationManager:didUpdateLocations:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
-            timestampString = "535250705.542412"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
             landmarkName = "-locationManager:didUpdateLocations:"
             landmarkType = "7">
             <Locations>
@@ -250,11 +234,11 @@
                   moduleName = "CityMapperChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nilofarvahabpoor/Desktop/CityMapperChallenge/CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
-                  timestampString = "535250262.72664"
+                  timestampString = "535255072.63703"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "86"
-                  endingLineNumber = "86"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
                   offsetFromSymbolStart = "517">
                </Location>
                <Location
@@ -265,11 +249,11 @@
                   moduleName = "CityMapperChallenge"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/nilofarvahabpoor/Desktop/CityMapperChallenge/CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
-                  timestampString = "535250262.733985"
+                  timestampString = "535255072.646866"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "87"
-                  endingLineNumber = "87"
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
                   offsetFromSymbolStart = "129">
                </Location>
             </Locations>
@@ -282,7 +266,23 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
-            timestampString = "535250705.542824"
+            timestampString = "535260181.79369"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
+            landmarkName = "-retrieveNearestStationsForLocation:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
+            timestampString = "535260181.793987"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "89"
@@ -298,11 +298,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
-            timestampString = "535250705.543125"
+            timestampString = "535260181.794049"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "86"
-            endingLineNumber = "86"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "-retrieveNearestStationsForLocation:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -314,39 +314,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
-            timestampString = "535250705.543191"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
-            landmarkName = "-retrieveNearestStationsForLocation:completion:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
-            timestampString = "535250705.543255"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
-            landmarkName = "-retrieveNearestStationsForLocation:completion:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
-            timestampString = "535250705.543316"
+            timestampString = "535260181.794106"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "83"
@@ -361,12 +329,28 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
-            timestampString = "535250705.543378"
+            filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
+            timestampString = "535260181.794164"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-retrieveNearestStationsForLocation:completion:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
+            timestampString = "535260181.794223"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
             landmarkName = "-locationManager:didUpdateLocations:"
             landmarkType = "7">
             <Locations>
@@ -421,31 +405,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
-            timestampString = "535250705.543759"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "92"
-            endingLineNumber = "92"
-            landmarkName = "-locationManager:didUpdateLocations:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
-            timestampString = "535250705.544058"
+            timestampString = "535260181.794298"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
             landmarkName = "-retrieveNearestStationsForLocation:completion:"
             landmarkType = "7">
          </BreakpointContent>
@@ -457,12 +425,316 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
-            timestampString = "535250705.544129"
+            timestampString = "535260181.794351"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
             landmarkName = "-locationManager:didUpdateLocations:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
+            timestampString = "535260181.794424"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "-locationManager:didUpdateLocations:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.794618"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "+arrayOfNearByStationsFromDict:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.794878"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "+stopPointFromDictionary:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.794951"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "+stationFacilitiesFromArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.795011"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "+stationFacilitiesFromArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.795068"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "+stationFacilitiesFromArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.795125"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "+stationFacilitiesFromArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.795182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "+stationFacilitiesFromArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/ModelFactory/ModelFactory.m"
+            timestampString = "535260181.795239"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "+stationFacilitiesFromArray:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
+            timestampString = "535260181.795301"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
+            timestampString = "535260181.795377"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-retrieveTrainInfoForStop:completion:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CMServiceHandler retrieveTrainInfoForStop:completion:]"
+                  moduleName = "CityMapperChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilofarvahabpoor/Desktop/CityMapperChallenge/CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
+                  timestampString = "535260181.82166"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "1091">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__56-[CMServiceHandler retrieveTrainInfoForStop:completion:]_block_invoke"
+                  moduleName = "CityMapperChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilofarvahabpoor/Desktop/CityMapperChallenge/CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
+                  timestampString = "535260181.824245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "110"
+                  endingLineNumber = "110"
+                  offsetFromSymbolStart = "106">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/UserInterface/CMStationArrivalsViewController/CMStationArrivalsViewController.m"
+            timestampString = "535260181.795453"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "-viewDidAppear:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[CMStationArrivalsViewController viewDidAppear:]"
+                  moduleName = "CityMapperChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilofarvahabpoor/Desktop/CityMapperChallenge/CityMapperChallenge/UserInterface/CMStationArrivalsViewController/CMStationArrivalsViewController.m"
+                  timestampString = "535260181.830489"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "137">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__49-[CMStationArrivalsViewController viewDidAppear:]_block_invoke"
+                  moduleName = "CityMapperChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nilofarvahabpoor/Desktop/CityMapperChallenge/CityMapperChallenge/UserInterface/CMStationArrivalsViewController/CMStationArrivalsViewController.m"
+                  timestampString = "535260181.834047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
+            timestampString = "535260181.796292"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "-tableView:didSelectRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/UserInterface/CMTubeListViewController/CMTubeListViewController.m"
+            timestampString = "535260181.796381"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-locationManager:didUpdateLocations:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CityMapperChallenge/Networking/RequestHandler/CMServiceHandler.m"
+            timestampString = "535260181.796452"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "-retrieveTrainInfoForStop:completion:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

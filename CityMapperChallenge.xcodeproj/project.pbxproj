@@ -27,6 +27,8 @@
 		1CBD072E1FE735FE003D6197 /* CMStopPointArrivalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD072D1FE735FE003D6197 /* CMStopPointArrivalController.m */; };
 		1CBD07321FE738E8003D6197 /* CMStopPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07311FE738E8003D6197 /* CMStopPoint.m */; };
 		1CBD07361FE73D7E003D6197 /* TimerTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07351FE73D7E003D6197 /* TimerTarget.m */; };
+		1CBD073B1FE76519003D6197 /* CMStationArrivalsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBD07391FE76519003D6197 /* CMStationArrivalsViewController.m */; };
+		1CBD073C1FE76519003D6197 /* CMStationArrivalsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBD073A1FE76519003D6197 /* CMStationArrivalsViewController.xib */; };
 		D01E125C130C75266C8FDE9A /* libPods-CityMapperChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0C571D20ADDACA3B62A72B /* libPods-CityMapperChallenge.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +69,9 @@
 		1CBD07311FE738E8003D6197 /* CMStopPoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMStopPoint.m; sourceTree = "<group>"; };
 		1CBD07341FE73D7E003D6197 /* TimerTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerTarget.h; sourceTree = "<group>"; };
 		1CBD07351FE73D7E003D6197 /* TimerTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerTarget.m; sourceTree = "<group>"; };
+		1CBD07381FE76519003D6197 /* CMStationArrivalsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMStationArrivalsViewController.h; sourceTree = "<group>"; };
+		1CBD07391FE76519003D6197 /* CMStationArrivalsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMStationArrivalsViewController.m; sourceTree = "<group>"; };
+		1CBD073A1FE76519003D6197 /* CMStationArrivalsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMStationArrivalsViewController.xib; sourceTree = "<group>"; };
 		50368916E7DE5C0FE6F280D6 /* Pods-CityMapperChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityMapperChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-CityMapperChallenge/Pods-CityMapperChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		7107959CE38EE70A646F92A3 /* Pods-CityMapperChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CityMapperChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CityMapperChallenge/Pods-CityMapperChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		9D0C571D20ADDACA3B62A72B /* libPods-CityMapperChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CityMapperChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +221,7 @@
 		1CBD071A1FE72546003D6197 /* UserInterface */ = {
 			isa = PBXGroup;
 			children = (
+				1CBD07371FE764DF003D6197 /* CMStationArrivalsViewController */,
 				1CBD071F1FE72868003D6197 /* CMTubeFacilityDetailViewController */,
 				1CBD07101FE71F4A003D6197 /* CMBaseViewController */,
 				1CBD070A1FE71D44003D6197 /* CMTubeListViewController */,
@@ -279,6 +285,16 @@
 				1CBD07351FE73D7E003D6197 /* TimerTarget.m */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		1CBD07371FE764DF003D6197 /* CMStationArrivalsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1CBD07381FE76519003D6197 /* CMStationArrivalsViewController.h */,
+				1CBD07391FE76519003D6197 /* CMStationArrivalsViewController.m */,
+				1CBD073A1FE76519003D6197 /* CMStationArrivalsViewController.xib */,
+			);
+			path = CMStationArrivalsViewController;
 			sourceTree = "<group>";
 		};
 		CCFA64204996DB3064BF2490 /* Frameworks */ = {
@@ -351,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1CBD07241FE7288C003D6197 /* CMTubeFacilityDetailViewController.xib in Resources */,
+				1CBD073C1FE76519003D6197 /* CMStationArrivalsViewController.xib in Resources */,
 				1CBD07181FE722CC003D6197 /* LaunchScreenImage.png in Resources */,
 				1CBD07151FE71F64003D6197 /* CMBaseViewController.xib in Resources */,
 				1CBD070F1FE71D75003D6197 /* CMTubeListViewController.xib in Resources */,
@@ -421,6 +438,7 @@
 				1CA803301FE6D64A007EB20E /* CMServiceHandler.m in Sources */,
 				1CAE9D481FE6B6A1001347CA /* main.m in Sources */,
 				1CBD071E1FE72594003D6197 /* ModelFactory.m in Sources */,
+				1CBD073B1FE76519003D6197 /* CMStationArrivalsViewController.m in Sources */,
 				1CBD072E1FE735FE003D6197 /* CMStopPointArrivalController.m in Sources */,
 				1CBD07321FE738E8003D6197 /* CMStopPoint.m in Sources */,
 				1CBD07141FE71F64003D6197 /* CMBaseViewController.m in Sources */,

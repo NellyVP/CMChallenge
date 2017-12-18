@@ -15,7 +15,7 @@ static NSString* const kCMRequestInsecureProtocol        = @"http://";
 static NSString* const kCMRequestProtocol                = @"https://";
 static NSString* const kCMRequestBaseURL                 = @"api.tfl.gov.uk";
 static NSString* const kCMRequestNearestStops            = @"/StopPoint?radius=1500&stopTypes=NaptanMetroStation&lat=%@&lon=%@";
-static NSString* const kCMRequestLiveData                = @"/StopPoint/%@/Arrivals?mode=tube";
+static NSString* const kCMRequestLiveData                = @"/StopPoint/%@/Arrivals";
 
 static NSString* const kControllerErrorDomain            = @"Conference Controller Domain";
 static NSString* const kRequestRefresh                   = @"RequestRefresh";

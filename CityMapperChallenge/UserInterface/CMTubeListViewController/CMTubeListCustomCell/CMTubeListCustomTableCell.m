@@ -11,12 +11,15 @@
 @implementation CMTubeListCustomTableCell
 
 + (CGFloat) dynamicHeight {
-    return 100;
+    return 200;
 }
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    // Initialization code
+    self.facilitiesStackView.axis = UILayoutConstraintAxisHorizontal;
+    self.facilitiesStackView.alignment = UIStackViewAlignmentFill;
+    self.facilitiesStackView.distribution = UIStackViewDistributionFill;
+    
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
